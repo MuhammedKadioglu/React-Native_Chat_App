@@ -3,11 +3,6 @@ import { ImageBackground, StyleSheet, KeyboardAvoidingView } from 'react-native'
 import { theme } from '../core/theme'
 
 const Background = ({ children }) => (
-  <ImageBackground
-   
-    resizeMode="repeat"
-    style={styles.background}
-  >
     <KeyboardAvoidingView style={styles.container} behavior="padding">
       {children}
     </KeyboardAvoidingView>
