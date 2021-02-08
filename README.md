@@ -20,4 +20,6 @@ yarn android
 
 go to  --> ./src/core/config.js
 
-and add your firebase web config
+and add your firebase web config 
+
+open firebase Auth. email/password and facebook 
